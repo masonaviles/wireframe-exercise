@@ -102,6 +102,13 @@ main {
 
 section.blade {
   margin: 1rem auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
 }
 
 section.blade.hero {
@@ -128,6 +135,39 @@ section.blade.hero {
 
 .hero-text p {
   text-align: center;
+}
+
+section.two-feature img {
+  width: 50%;
+  float: left;
+  padding-right: 1rem;
+}
+
+section.two-feature div {
+  width: 50%;
+  float: right;
+  padding-left: 1rem;
+}
+
+section.two-feature h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section.two-feature p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: block;
+  width: 8rem;
+  text-align: center;
+  background-color: gray;
+  padding: 1.25rem 3rem;
+  border-radius: 1rem;
+  text-decoration: none;
 }
 
 footer p {
